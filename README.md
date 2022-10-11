@@ -1,3 +1,3 @@
 # conquering-responsive-layout
 
-My solutions to a CSS course in responsivity.
+My notes and solutions to a CSS course in building responsive layouts.
