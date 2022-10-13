@@ -1,0 +1,59 @@
+:root{
+    --dark-blue: #23424A;
+    --light-blue: #38CFD9;
+    --white: #FFFFFF;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Roboto';
+    font-style: normal;
+}
+
+h1{
+    font-weight: 900;
+    font-size: 48.0529px;
+    line-height: 56px;
+}
+
+p{
+    opacity: 0.8;
+}
+
+.container{
+    background: var(--dark-blue);
+}
+
+.content{
+    width: 80%;
+    padding: 8em 0;
+    margin: 0 auto;
+}
+
+.hero{
+    width: 60%;
+}
+
+.hero--header{
+    margin-bottom: 1em;
+}
+
+
+.text--white{
+    color: #FFFFFF;
+}
+
+.btn{
+    text-decoration: none;
+    color: var(--dark-blue);
+}
+
+.btn--div{
+    background-color: var(--light-blue);
+    width: 40%;
+    text-align: center;
+    padding: 1em;
+    border-radius: 2em;
+    margin-top: 3em;
+  }
