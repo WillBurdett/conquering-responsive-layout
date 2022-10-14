@@ -6,13 +6,16 @@
 
 *{
     box-sizing: border-box;
-    margin: 0;
     font-family: 'Roboto';
     font-style: normal;
 }
 
+body{
+    margin: 0;
+}
+
 h1{
-    font-weight: 900;
+    font-weight: 3rem;
     font-size: 48.0529px;
     line-height: 56px;
 }
@@ -39,16 +42,15 @@ p{
     margin-bottom: 1em;
 }
 
-
 .text--white{
     color: #FFFFFF;
 }
 
 .btn{
     text-decoration: none;
-    color: var(--dark-blue);
+    color: var(--dark-blue);;
 }
-
+    
 .btn--div{
     background-color: var(--light-blue);
     width: 40%;
@@ -56,4 +58,9 @@ p{
     padding: 1em;
     border-radius: 2em;
     margin-top: 3em;
-  }
+}
+
+.btn--div:hover,
+.btn--div:focus{
+    opacity: .75;
+}
