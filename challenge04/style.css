@@ -23,6 +23,11 @@
     box-sizing: border-box;
 }
 
+:root{
+    --third-section-bg:#136C72;
+    --purple: #87629A;
+}
+
 body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
@@ -42,36 +47,23 @@ h1 {
 .row {
     /* display: flex => flex container */
     display: flex;
+    padding: 3em 0;
 
     /* can't use yet */
     /* gap: 100px; */
 }
 
-.body-container{
-    width: 90%;
-    max-width: 1200px;
-    margin: 0 auto;
-    /* padding: 50px */
-}
-
-.body-container p{
-    font-weight:lighter;
-    padding: 2em 0;
+.col + .col{
+    margin-left: 70px;
 }
 
 .col {
     /* these are now flex items */
     width: 100%;
     text-align: center;
-    justify-content: space-evenly;
-}
-
-.col + .col{
-    margin-left: 10px;
 }
 
 .hero {
-    width: 100%;
     padding: 100px 0;
     background-color: #23424A;
     color: #FFF;
@@ -79,6 +71,10 @@ h1 {
 
 .hero__text {
     width: 60%;
+}
+
+.hero p {
+    margin-bottom: 3em;
 }
 
 .btn {
@@ -97,17 +93,11 @@ h1 {
     opacity: .75; 
 }
 
-.col__purple{
-    color: #87629A;
+.sub__purple{
+    color: var(--purple);
 }
 
-
-
-.lower-hero {
-    background-color: #136C72;
+.section__3{
+    background: var(--third-section-bg);
     color: #FFF;
-}
-
-.upper-hero{
-    width: 100%;
 }
