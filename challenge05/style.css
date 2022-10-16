@@ -46,27 +46,40 @@ h1 {
     /* gap: 100px; */
 }
 
-.col {
+.col--left {
     /* these are now flex items */
-    width: 100%;
+    width: 62%;
+}
+.col--left h2{
+    color: #136C72;
 }
 
-.col + .col {
+.col--right{
+    width: 32%;
     margin-left: 30px;
+    background-color: #136C72 ;
+    color: #FFF;
+    justify-content: center;
+    padding: 1em;
+}
+
+.list-item{
+    text-align: center;
 }
 
 .hero {
     padding: 100px 0;
     background-color: #23424A;
     color: #FFF;
+    margin-bottom: 2em;
 }
 
 .hero__text { 
-    width: 60%;
+    width: 62%;
 }
 
 .hero__img {
-    width: 35%;
+    width: 32%;
     align-self: flex-start;
 }
 
@@ -89,42 +102,3 @@ h1 {
 .btn:focus {
     opacity: .75; 
 }
-
-.main-body__col1 h2{
-    color: #136C72;
-}
-.main-body__col1 p{
-    color: #23424A;
-}
-.main-body__col1{
-    max-width: 60%;
-}
-
-.main-body__col2 h2{
-    color: white;
-}
-.main-body__col2 p{
-    color: white;
-    
-}
-.main-body__col2{
-    background-color: #136C72;
-    padding: 2em;
-    text-align: center;
-    max-width: 35%;
-    line-height: 150%;
-}
-
-.main-body{
-    margin-top: 2em;
-    margin-bottom: 2em;
-}
-
-.lighter{
-    font-weight: lighter;
-}
-
-.column-item + .column-item{
-    margin-top: 70px;
-}
-
