@@ -37,6 +37,22 @@ h1 {
     margin: 0 auto;
 }
 
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase; 
+    color: #23424A;
+    font-weight: 900;
+    background-color: #38CFD9;
+    padding: .75em 2em;
+    border-radius: 100px;
+}
+
+.btn:hover,
+.btn:focus {
+    opacity: .75; 
+}
+
 .row {
     /* display: flex => flex container */
     display: flex;
@@ -87,18 +103,3 @@ h1 {
     margin-bottom: 3em;
 }
 
-.btn {
-    display: inline-block;
-    text-decoration: none;
-    text-transform: uppercase; 
-    color: #23424A;
-    font-weight: 900;
-    background-color: #38CFD9;
-    padding: .75em 2em;
-    border-radius: 100px;
-}
-
-.btn:hover,
-.btn:focus {
-    opacity: .75; 
-}
