@@ -1,6 +1,77 @@
+:root{
+    --white: #FFFFFF;
+    --palebrown: #F3EED9;
+    --brown: #824936;
+    --black: #222C2A;
+}
+
 *{
     box-sizing: border-box;
+    margin: 0 auto;
 }
-body{
-    background-color: aqua;
+
+.container{
+    width: 80%;
+    max-width: 900px;
+}
+
+.hero{
+    width: 100%;
+    background-color: var(--palebrown)
+}
+.hero h3{
+    color: var(--black);
+    font-family: 'Roboto', sans-serif;
+    /* change font size to em later*/
+    font-size: 18px;
+}
+.hero h1{
+    color: var(--brown);
+    font-family: 'Playfair Display', serif;
+    font-size: 60px;
+}
+
+.quality{
+    width: 100%;
+    background-color: var(--white)
+}
+.quality h2{
+    color: var(--brown);
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+}
+.quality p{
+    color: var(black);
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+}
+
+.custom{
+    width: 100%;
+    background-color: var(--black)
+}
+.custom h2{
+    color: var(--palebrown);
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+}
+.custom p{
+    color: var(--white);
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+}
+
+.care{
+    width: 100%;
+    background-color: var(--brown)
+}
+.care h2{
+    color: var(--palebrown);
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+}
+.care p{
+    color: var(--white);
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
 }
