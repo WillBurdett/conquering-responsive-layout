@@ -1,6 +1,60 @@
+:root{
+    --white: #FFFFFF;
+    --palebrown: #F3EED9;
+    --brown: #824936;
+    --black: #222C2A;
+}
+
 *{
     box-sizing: border-box;
+    margin: 0 auto;
 }
-body{
-    background-color: aqua;
+
+.container{
+    width: 80%;
+    max-width: 900px;
+}
+
+.hero{
+    width: 100%;
+    background-color: var(--palebrown)
+}
+.hero h3{
+    color: var(--black);
+}
+.hero h1{
+    color: var(--brown)
+}
+
+.quality{
+    width: 100%;
+    background-color: var(--white)
+}
+.quality h2{
+    color: var(--brown)
+}
+.quality p{
+    color: var(black);
+}
+
+.custom{
+    width: 100%;
+    background-color: var(--black)
+}
+.custom h2{
+    color: var(--palebrown);
+}
+.custom p{
+    color: var(--white);
+}
+
+.care{
+    width: 100%;
+    background-color: var(--brown)
+}
+.care h2{
+    color: var(--palebrown);
+}
+.care p{
+    color: var(--white);
 }
