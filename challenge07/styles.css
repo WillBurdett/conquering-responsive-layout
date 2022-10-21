@@ -33,17 +33,24 @@
 
 .quality{
     width: 100%;
-    background-color: var(--white)
+    background-color: var(--white);
+    text-align: center;
+    
 }
 .quality h2{
     color: var(--brown);
     font-family: 'Playfair Display', serif;
     font-size: 36px;
+    margin-bottom: 1em;
 }
 .quality p{
     color: var(black);
     font-family: 'Roboto', sans-serif;
     font-size: 21px;
+    font-weight: lighter;
+}
+.quality__content{
+    padding: 5em 0;
 }
 
 .custom{
@@ -54,11 +61,16 @@
     color: var(--palebrown);
     font-family: 'Playfair Display', serif;
     font-size: 36px;
+    margin-bottom: 1em;
 }
 .custom p{
     color: var(--white);
     font-family: 'Roboto', sans-serif;
     font-size: 21px;
+    font-weight: lighter;
+}
+.custom__content{
+    padding: 5em 0;
 }
 
 .care{
@@ -69,9 +81,22 @@
     color: var(--palebrown);
     font-family: 'Playfair Display', serif;
     font-size: 36px;
+    margin-bottom: 1em;
 }
 .care p{
     color: var(--white);
     font-family: 'Roboto', sans-serif;
     font-size: 21px;
+    font-weight: lighter;
+}
+.care__content{
+    padding: 5em 0;
+}
+
+.row{
+    display: flex;
+}
+
+.push-right{
+    margin-right: 2.5em;
 }
