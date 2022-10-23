@@ -24,11 +24,20 @@
     font-family: 'Roboto', sans-serif;
     /* change font size to em later*/
     font-size: 18px;
+    font-weight: 200;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
 }
 .hero h1{
     color: var(--brown);
     font-family: 'Playfair Display', serif;
     font-size: 60px;
+    padding: 0 1em;
+    text-align: center;
+}
+.hero__content{
+   padding: 10em 0;
 }
 
 .quality{
